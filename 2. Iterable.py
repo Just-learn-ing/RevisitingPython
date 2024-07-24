@@ -44,10 +44,6 @@ def generators():#Sample example of generators
     for number in counter:
         print(number, type(number))
 
-#i am trying to code from mobile to pc
-
-
-
 
 
 
