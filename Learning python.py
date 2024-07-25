@@ -1,4 +1,7 @@
 #revision is neccesary
+'''INDEX:
+---> Data types
+---> TypeCasting'''
 
 # print("how are you",9,0,sep='')  #this is print statement for python no need to add semicolon in the last line it self is it python is interpreted language
 #sep is used at the last;
@@ -31,7 +34,9 @@ Sno.        Datatype        literal         initial value
 '''
 #BINARY TYPE
 '''
-Abhi tak padha nahi hai jab padhunga tab likhunga'''
+11.         Bytes           b"your string"                           IMMUTABLE
+12.         Bytearray       bytearray(size<type int>)                MUTABLE
+13.         Memoryview      memoryview(bytes(size))                  MUTABLE'''
 #NONE TYPE:
 '''
 11.         NONE                                                     IMMUTABLE'''
@@ -58,3 +63,22 @@ print(e, type(e),"\n")
 print(f, type(f),"\n")
 print(g, type(g),"\n")
 print(h, type(h),"\n")
+
+
+#TYPECASTING
+#convert from int to float:
+x = float(1)
+
+#convert from float to int:
+y = int(2.8)
+
+#convert from int to complex:
+z = complex(1)
+
+print(x)
+print(y)
+print(z)
+
+print(type(x))
+print(type(y))
+print(type(z))
