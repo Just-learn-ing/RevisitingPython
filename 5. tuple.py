@@ -68,5 +68,8 @@ tuple2=(4,5,6)
 tuple1 = tuple1 + tuple2
 tuple2 = tuple2*3
 # print(tuple1)
+# print(tuple2)
 
-
+'''TUPLE METHODS: there are two builin method u can use with tuples
+        count() --> returns number of times a specified value occurs in tuple
+        index() --> searches tuple for a specified value and returns the index of it'''
