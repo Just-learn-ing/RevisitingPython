@@ -3,5 +3,5 @@
 Syntax--> lambda arguments: expression '''
 
 def power(a):
-    return lambda a: a * a
-power(2)
+    return lambda n: a * n
+print(power(23)(5))

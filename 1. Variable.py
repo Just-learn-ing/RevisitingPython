@@ -30,6 +30,16 @@ def Global(): #Gobal variables
     global glob_var
     glob_var = 899
 
+def Nonlocal(): #nonlocal variable
+    def myfunc():
+        x = 300
+        def myinnerfunc():
+            nonlocal x
+            x = "The value has been assigned to variable outside the function"
+        myinnerfunc()
+        print(x)
+    myfunc()
+Nonlocal()
 
 
 
