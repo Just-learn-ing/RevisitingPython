@@ -1,6 +1,5 @@
 import os
 
-
 '''open() function takes two parameters first is file name and second is file mode
 four different modes of opening a file in python:
 "r" - read

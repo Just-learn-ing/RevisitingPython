@@ -21,5 +21,7 @@ x = {
 y = json.dumps(x)
 
 # the result is a JSON string:
-print(x)
+print(y)
 
+
+"Pip is a package manager for python some commands - pip install package, pip uninstall package, pip list"

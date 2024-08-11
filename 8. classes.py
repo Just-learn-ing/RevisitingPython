@@ -35,7 +35,8 @@ class Myclass2: #class without __str__
 p2 = Myclass1("Balkrishan", "8th", 3) 
 p3 = Myclass2("Balkrishan", "8th", 3) 
 print(p2)
-print(p3)
+print(p3)      #will print something like a map 
+
 
 
     
